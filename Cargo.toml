@@ -1,0 +1,13 @@
+[package]
+name = "yct"
+version = "0.1.0"
+edition = '2021'
+authors = ["Vasilis S. <v.sarris@pitt.edu>"]
+description = "Command line tool for generating consistent, human-readable filenames for research papers"
+readme = "README.md"
+repository = "https://github.com/sarrisv/ytc"
+license = "MIT"
+keywords = ["yct", "research", "file-management"]
+
+[dependencies]
+clap = { version = "4.4.11", features = ["cargo"] }
